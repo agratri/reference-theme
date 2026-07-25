@@ -1,0 +1,1 @@
+sass --watch D:\laragon\www\kindaid\wp-content\themes\kindaid\assets\scss\main.scss:D:\laragon\www\kindaid\wp-content\themes\kindaid\assets\css\main.css

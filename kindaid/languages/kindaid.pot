@@ -1,0 +1,1482 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: KindAid\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-05-22 15:28+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.8.4; wp-7.0; php-8.1.10\n"
+"X-Domain: kindaid"
+
+#: include/kindaid-kirki.php:70 include/kindaid-kirki.php:94
+#: include/kindaid-kirki.php:104 include/kindaid-kirki.php:114
+#: include/theme-helper.php:132 include/theme-helper.php:133
+#: include/theme-helper.php:134 templates/header/header-1.php:4
+#: templates/header/header-2.php:4 templates/header/header-3.php:4
+msgid "#"
+msgstr ""
+
+#. %1$s Action name, %2$s Order number.
+#: woocommerce/order/order-details.php:108
+#, php-format
+msgid "%1$s order number %2$s"
+msgstr ""
+
+#. 1: reviews count 2: product name
+#: woocommerce/single-product-reviews.php:36
+#, php-format
+msgid "%1$s review for %2$s"
+msgid_plural "%1$s reviews for %2$s"
+msgstr[0] ""
+msgstr[1] ""
+
+#. %s: Quantity.
+#: woocommerce/global/quantity-input.php:24
+#, php-format
+msgid "%s quantity"
+msgstr ""
+
+#: woocommerce/single-product/rating.php:41
+#, php-format
+msgid "%s review"
+msgid_plural "%s reviews"
+msgstr[0] ""
+msgstr[1] ""
+
+#. %s is the product name
+#: woocommerce/cart/mini-cart.php:72
+#, php-format
+msgid "&ldquo;%s&rdquo; has been removed from your cart"
+msgstr ""
+
+#. %s location.
+#: woocommerce/cart/cart-totals.php:72
+#, php-format
+msgid "(estimated for %s)"
+msgstr ""
+
+#: 404.php:5 include/kindaid-kirki.php:418
+msgid "404"
+msgstr ""
+
+#: include/kindaid-kirki.php:445
+msgid "404 Button Text"
+msgstr ""
+
+#: include/kindaid-kirki.php:435
+msgid "404 Content"
+msgstr ""
+
+#: include/kindaid-kirki.php:406
+msgid "404 Error"
+msgstr ""
+
+#: include/breadcrumb.php:32
+msgid "404 Page not Found"
+msgstr ""
+
+#: include/kindaid-kirki.php:426
+msgid "404 Sub Title"
+msgstr ""
+
+#: include/kindaid-kirki.php:416
+msgid "404 Text"
+msgstr ""
+
+#: include/theme-helper.php:302
+msgid "<i class=\"far fa-arrow-left\"></i>"
+msgstr ""
+
+#: include/theme-helper.php:303
+msgid "<i class=\"far fa-arrow-right\"></i>"
+msgstr ""
+
+#: functions.php:47
+msgid "A dummy block pattern to pass theme check."
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:91
+msgid "A link to set a new password will be sent to your email address."
+msgstr ""
+
+#: templates/biography.php:19
+msgid "About Author"
+msgstr ""
+
+#: woocommerce/order/order-details.php:100
+msgid "Actions"
+msgstr ""
+
+#: woocommerce/myaccount/my-address.php:67
+#, php-format
+msgid "Add %s"
+msgstr ""
+
+#. %s is product title
+#: woocommerce/single-product-reviews.php:77
+msgid "Add a review"
+msgstr ""
+
+#: include/kindaid-woocommerce.php:143 include/kindaid-woocommerce.php:152
+msgid "Add to Cart"
+msgstr ""
+
+#: include/kindaid-woocommerce.php:188
+msgid "Add to Compare"
+msgstr ""
+
+#: include/kindaid-woocommerce.php:202
+msgid "Add To Wishlist"
+msgstr ""
+
+#: woocommerce/checkout/form-shipping.php:57
+#: woocommerce/single-product/tabs/additional-information.php:22
+msgid "Additional information"
+msgstr ""
+
+#: include/add_plugin.php:176
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: woocommerce/cart/cart.php:178 woocommerce/checkout/form-coupon.php:49
+#: woocommerce/checkout/form-coupon.php:49
+msgid "Apply coupon"
+msgstr ""
+
+#. Author of the theme
+msgid "aqlova"
+msgstr ""
+
+#: include/kindaid-metafileds.php:77
+msgid "Audio Format"
+msgstr ""
+
+#: include/kindaid-metafileds.php:80
+msgid "Audio url here"
+msgstr ""
+
+#: woocommerce/cart/cart.php:105
+msgid "Available on backorder"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:132
+msgid "Average"
+msgstr ""
+
+#: 404.php:8 include/kindaid-kirki.php:447
+msgid "Back To Home"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:77
+#, php-format
+msgid "Be the first to review &ldquo;%s&rdquo;"
+msgstr ""
+
+#: include/add_plugin.php:166
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: include/add_plugin.php:156
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: include/add_plugin.php:161
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: woocommerce/checkout/form-billing.php:24
+msgid "Billing &amp; Shipping"
+msgstr ""
+
+#: woocommerce/myaccount/my-address.php:26
+#: woocommerce/myaccount/my-address.php:35
+#: woocommerce/order/order-details-customer.php:31
+msgid "Billing address"
+msgstr ""
+
+#: woocommerce/checkout/form-billing.php:28
+msgid "Billing details"
+msgstr ""
+
+#: include/breadcrumb.php:8 include/breadcrumb.php:11
+#: include/kindaid-kirki.php:275
+msgid "Blog"
+msgstr ""
+
+#: include/kindaid-kirki.php:341
+msgid "Blog Button"
+msgstr ""
+
+#: include/kindaid-kirki.php:285
+msgid "Blog Category Switch"
+msgstr ""
+
+#: include/kindaid-kirki.php:286
+msgid "Blog Category switch"
+msgstr ""
+
+#: include/kindaid-kirki.php:299
+msgid "Blog Meta Author On/Off"
+msgstr ""
+
+#: include/kindaid-kirki.php:300
+msgid "Blog Meta Author switch"
+msgstr ""
+
+#: include/kindaid-kirki.php:326
+msgid "Blog Meta Comment On/Off"
+msgstr ""
+
+#: include/kindaid-kirki.php:327
+msgid "Blog Meta Comment switch"
+msgstr ""
+
+#: include/kindaid-kirki.php:313
+msgid "Blog Meta Date On/Off"
+msgstr ""
+
+#: include/kindaid-kirki.php:314
+msgid "Blog Meta Date switch"
+msgstr ""
+
+#: include/common/widgets-init.php:9
+msgid "Blog Sidebar"
+msgstr ""
+
+#: include/kindaid-kirki.php:245
+msgid "Breadcrumb"
+msgstr ""
+
+#: include/add_plugin.php:99
+msgid "Breadcrumb NavXT"
+msgstr ""
+
+#: include/kindaid-kirki.php:256
+msgid "Breadcrumb On/Off switch"
+msgstr ""
+
+#: include/kindaid-kirki.php:255
+msgid "Breadcrumb Switch"
+msgstr ""
+
+#: include/kindaid-kirki.php:58
+msgid "Button Text"
+msgstr ""
+
+#: include/kindaid-kirki.php:68
+msgid "Button URL"
+msgstr ""
+
+#: include/kindaid-woocommerce.php:147
+msgid "Buy Now"
+msgstr ""
+
+#. %1$s: Product name. %2$s: Product price
+#: woocommerce/single-product/add-to-cart/grouped.php:79
+#, php-format
+msgid "Buy one of %1$s for %2$s"
+msgstr ""
+
+#. %1$s: Product name. %2$s: Sale price. %3$s: Regular price
+#: woocommerce/single-product/add-to-cart/grouped.php:71
+#, php-format
+msgid "Buy one of %1$s on sale for %2$s, original price was %3$s"
+msgstr ""
+
+#: woocommerce/cart/cart-totals.php:25
+msgid "Cart totals"
+msgstr ""
+
+#: woocommerce/single-product/meta.php:39
+msgid "Category:"
+msgstr ""
+
+#: woocommerce/cart/cart-shipping.php:52
+msgid "Change address"
+msgstr ""
+
+#: include/add_plugin.php:47
+msgid "Charitable"
+msgstr ""
+
+#: woocommerce/checkout/form-checkout.php:32
+msgid "Checkout"
+msgstr ""
+
+#: include/kindaid-kirki.php:31 include/kindaid-kirki.php:369
+msgid "Choose an option"
+msgstr ""
+
+#: woocommerce/single-product/add-to-cart/variable.php:55
+msgid "Clear"
+msgstr ""
+
+#: woocommerce/single-product/add-to-cart/variable.php:55
+msgid "Clear options"
+msgstr ""
+
+#: woocommerce/checkout/form-coupon.php:37
+msgid "Click here to enter your code"
+msgstr ""
+
+#: comments.php:14
+msgid "Comment"
+msgid_plural "Comments"
+msgstr[0] ""
+msgstr[1] ""
+
+#: woocommerce/myaccount/form-edit-account.php:75
+msgid "Confirm new password"
+msgstr ""
+
+#: include/add_plugin.php:67
+msgid "Contact Form 7"
+msgstr ""
+
+#: include/kindaid-kirki.php:389
+msgid "Copyright Text"
+msgstr ""
+
+#: woocommerce/cart/cart.php:178 woocommerce/checkout/form-coupon.php:45
+msgid "Coupon code"
+msgstr ""
+
+#: woocommerce/cart/cart.php:176
+msgid "Coupon Code:"
+msgstr ""
+
+#: woocommerce/checkout/form-coupon.php:44
+msgid "Coupon:"
+msgstr ""
+
+#: woocommerce/checkout/form-billing.php:53
+msgid "Create an account?"
+msgstr ""
+
+#: woocommerce/myaccount/form-edit-account.php:67
+msgid "Current password (leave blank to leave unchanged)"
+msgstr ""
+
+#: woocommerce/single-product/tabs/description.php:22
+msgid "Description"
+msgstr ""
+
+#: include/kindaid-kirki.php:50 include/kindaid-kirki.php:261
+#: include/kindaid-kirki.php:291 include/kindaid-kirki.php:305
+#: include/kindaid-kirki.php:319 include/kindaid-kirki.php:332
+#: include/kindaid-kirki.php:476
+msgid "Disable"
+msgstr ""
+
+#: eventin/templates/event-one.php:45
+msgid "Discover Events"
+msgstr ""
+
+#: include/add_plugin.php:177
+msgid "Dismiss this notice"
+msgstr ""
+
+#: woocommerce/myaccount/form-edit-account.php:44
+msgid "Display name"
+msgstr ""
+
+#: include/kindaid-kirki.php:60 templates/header/header-1.php:3
+#: templates/header/header-2.php:3 templates/header/header-3.php:3
+msgid "Donate Now"
+msgstr ""
+
+#: include/common/widgets-init.php:31
+msgid "Donation Sidebar"
+msgstr ""
+
+#: functions.php:46
+msgid "Dummy Pattern"
+msgstr ""
+
+#: functions.php:35
+msgid "Dummy Style"
+msgstr ""
+
+#. %s: Address title
+#: woocommerce/myaccount/my-address.php:67
+#, php-format
+msgid "Edit %s"
+msgstr ""
+
+#: include/add_plugin.php:37
+msgid "Elementor Builder"
+msgstr ""
+
+#: comments.php:52 woocommerce/single-product-reviews.php:98
+msgid "Email"
+msgstr ""
+
+#: woocommerce/myaccount/form-edit-account.php:50
+#: woocommerce/myaccount/form-login.php:78
+msgid "Email address"
+msgstr ""
+
+#: include/kindaid-kirki.php:49 include/kindaid-kirki.php:260
+#: include/kindaid-kirki.php:290 include/kindaid-kirki.php:304
+#: include/kindaid-kirki.php:318 include/kindaid-kirki.php:331
+#: include/kindaid-kirki.php:475
+msgid "Enable"
+msgstr ""
+
+#: woocommerce/cart/cart-shipping.php:85
+msgid "Enter a different address"
+msgstr ""
+
+#: woocommerce/cart/cart-shipping.php:64
+msgid "Enter your address to view shipping options."
+msgstr ""
+
+#: woocommerce/checkout/form-coupon.php:37
+msgid "Enter your coupon code"
+msgstr ""
+
+#: eventin/templates/event-one.php:83
+msgid "Event Date"
+msgstr ""
+
+#: eventin/templates/event-one.php:92
+msgid "Event Location"
+msgstr ""
+
+#: include/common/widgets-init.php:42
+msgid "Event Sidebar"
+msgstr ""
+
+#: include/add_plugin.php:42
+msgid "Eventin"
+msgstr ""
+
+#: include/kindaid-metafileds.php:123
+msgid "Facebook URL"
+msgstr ""
+
+#: include/kindaid-kirki.php:92
+msgid "Facebook URL "
+msgstr ""
+
+#: include/kindaid-metafileds.php:126
+msgid "Facebook URL..."
+msgstr ""
+
+#. Filter: verb "to filter"
+#: woocommerce/content-widget-price-filter.php:33
+msgid "Filter"
+msgstr ""
+
+#: woocommerce/myaccount/form-edit-account.php:34
+msgid "First name"
+msgstr ""
+
+#: templates/header/offcanvas.php:56
+msgid "Follow Us"
+msgstr ""
+
+#: include/kindaid-kirki.php:356
+msgid "Footer"
+msgstr ""
+
+#: include/common/widgets-init.php:53
+msgid "Footer 1 : Widget 1"
+msgstr ""
+
+#: include/common/widgets-init.php:63
+msgid "Footer 1 : Widget 2"
+msgstr ""
+
+#: include/common/widgets-init.php:73
+msgid "Footer 1 : Widget 3"
+msgstr ""
+
+#: include/common/widgets-init.php:83
+msgid "Footer 1 : Widget 4"
+msgstr ""
+
+#: include/common/widgets-init.php:95
+msgid "Footer 2 : Widget 1"
+msgstr ""
+
+#: include/common/widgets-init.php:105
+msgid "Footer 2 : Widget 2"
+msgstr ""
+
+#: include/common/widgets-init.php:115
+msgid "Footer 2 : Widget 3"
+msgstr ""
+
+#: include/common/widgets-init.php:125
+msgid "Footer 2 : Widget 4"
+msgstr ""
+
+#: include/kindaid-kirki.php:380
+msgid "Footer BG Image"
+msgstr ""
+
+#: include/kindaid-kirki.php:381
+msgid "Footer bg image will be place"
+msgstr ""
+
+#: include/kindaid-metafileds.php:34
+msgid "Footer Layout"
+msgstr ""
+
+#: include/common/after-setup-theme.php:45
+msgid "Footer Menu"
+msgstr ""
+
+#: include/kindaid-kirki.php:371 include/kindaid-metafileds.php:39
+msgid "Footer One"
+msgstr ""
+
+#: include/kindaid-kirki.php:372 include/kindaid-metafileds.php:40
+msgid "Footer Two"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:131
+msgid "Good"
+msgstr ""
+
+#. If there are characters in your language that are not supported
+#. by the font, translate this to 'off'. Do not translate into your own language.
+#: include/common/theme-scripts.php:70
+msgctxt "Google font: on or off"
+msgid "on"
+msgstr ""
+
+#: include/kindaid-kirki.php:486 include/kindaid-woocommerce.php:249
+msgid "Guaranteed safe & secure checkout"
+msgstr ""
+
+#: woocommerce/checkout/form-coupon.php:37
+msgid "Have a coupon?"
+msgstr ""
+
+#: include/kindaid-kirki.php:18
+msgid "Header Info"
+msgstr ""
+
+#: include/kindaid-metafileds.php:19
+msgid "Header Layout"
+msgstr ""
+
+#: include/kindaid-kirki.php:128
+msgid "Header Logo"
+msgstr ""
+
+#: include/kindaid-kirki.php:33 include/kindaid-metafileds.php:24
+msgid "Header One"
+msgstr ""
+
+#: include/kindaid-kirki.php:44
+msgid "Header Right Info switch"
+msgstr ""
+
+#: include/kindaid-kirki.php:45
+msgid "Header Right switch"
+msgstr ""
+
+#: include/kindaid-kirki.php:82
+msgid "Header Social"
+msgstr ""
+
+#: include/kindaid-kirki.php:35 include/kindaid-metafileds.php:26
+msgid "Header Three"
+msgstr ""
+
+#: include/kindaid-kirki.php:34 include/kindaid-metafileds.php:25
+msgid "Header Two"
+msgstr ""
+
+#: include/kindaid-kirki.php:181 templates/header/offcanvas.php:5
+msgid "Hello There!"
+msgstr ""
+
+#: include/kindaid-kirki.php:407
+msgid "Here 404 page settings will place."
+msgstr ""
+
+#: include/kindaid-kirki.php:276
+msgid "Here blog settings will be place."
+msgstr ""
+
+#: include/kindaid-kirki.php:246
+msgid "Here Breadcrumb settings will place."
+msgstr ""
+
+#: include/kindaid-kirki.php:357
+msgid "Here footer settings will place."
+msgstr ""
+
+#: include/kindaid-kirki.php:19
+msgid "Here header information"
+msgstr ""
+
+#: include/kindaid-kirki.php:83 include/kindaid-kirki.php:129
+#: include/kindaid-kirki.php:161
+msgid "Here header logo information"
+msgstr ""
+
+#: include/kindaid-kirki.php:461
+msgid "Here product settings will place."
+msgstr ""
+
+#. Author URI of the theme
+msgid "https://themeforest.net/user/aqlova"
+msgstr ""
+
+#. URI of the theme
+msgid "https://wp.storebuild.shop/agntix/"
+msgstr ""
+
+#: templates/header/offcanvas.php:48
+msgid "Information"
+msgstr ""
+
+#: include/kindaid-metafileds.php:139
+msgid "Instagram URL"
+msgstr ""
+
+#: include/kindaid-kirki.php:112
+msgid "Instagram URL "
+msgstr ""
+
+#: include/kindaid-metafileds.php:142
+msgid "Instagram URL..."
+msgstr ""
+
+#: include/add_plugin.php:122
+msgid "Install Plugins"
+msgstr ""
+
+#: include/add_plugin.php:121
+msgid "Install Required Plugins"
+msgstr ""
+
+#: include/add_plugin.php:123
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#. Name of the theme
+msgid "KindAid"
+msgstr ""
+
+#: include/kindaid-kirki.php:9
+msgid "KindAid All Option Panel Here."
+msgstr ""
+
+#: include/add_plugin.php:30
+msgid "Kindaid Core"
+msgstr ""
+
+#: include/kindaid-kirki.php:8
+msgid "KindAid Options"
+msgstr ""
+
+#: include/add_plugin.php:62
+msgid "Kirki Customizer Framework"
+msgstr ""
+
+#: woocommerce/myaccount/form-edit-account.php:38
+msgid "Last name"
+msgstr ""
+
+#. %s is product title
+#: woocommerce/single-product-reviews.php:79
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#: include/kindaid-metafileds.php:131
+msgid "Linkedin URL"
+msgstr ""
+
+#: include/kindaid-metafileds.php:134
+msgid "Linkedin URL..."
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:49
+msgid "Log in"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:27
+msgid "Login"
+msgstr ""
+
+#: include/kindaid-kirki.php:191 templates/header/offcanvas.php:6
+msgid "Lorem ipsum dolor sit amet, consect etur adipiscing elit."
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:52
+msgid "Lost your password?"
+msgstr ""
+
+#: include/add_plugin.php:104
+msgid "Mailchimp for WordPress"
+msgstr ""
+
+#: include/kindaid-kirki.php:137
+msgid "Main Logo"
+msgstr ""
+
+#: include/common/after-setup-theme.php:44
+msgid "Main Menu"
+msgstr ""
+
+#: woocommerce/content-widget-price-filter.php:30
+#: woocommerce/content-widget-price-filter.php:31
+msgid "Max price"
+msgstr ""
+
+#: woocommerce/content-widget-price-filter.php:28
+#: woocommerce/content-widget-price-filter.php:29
+msgid "Min price"
+msgstr ""
+
+#. Description of the theme
+msgid "My first responsive HTML5 theme"
+msgstr ""
+
+#: woocommerce/order/order-details-customer.php:34
+#: woocommerce/order/order-details-customer.php:63
+#: woocommerce/single-product/meta.php:34
+msgid "N/A"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:91
+msgid "Name"
+msgstr ""
+
+#: woocommerce/myaccount/form-edit-account.php:71
+msgid "New password (leave blank to leave unchanged)"
+msgstr ""
+
+#: comments.php:35
+msgid "Next"
+msgstr ""
+
+#: single.php:51
+msgid "Next Post"
+msgstr ""
+
+#: include/add_plugin.php:174
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#: woocommerce/cart/mini-cart.php:107
+msgid "No products in the cart."
+msgstr ""
+
+#. $s shipping destination.
+#: woocommerce/cart/cart-shipping.php:81
+#, php-format
+msgid "No shipping options were found for %s."
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:133
+msgid "Not that bad"
+msgstr ""
+
+#: woocommerce/order/order-details.php:133
+msgid "Note:"
+msgstr ""
+
+#: include/kindaid-kirki.php:160
+msgid "Offcanvas"
+msgstr ""
+
+#: include/kindaid-kirki.php:189
+msgid "Offcanvas Description"
+msgstr ""
+
+#: include/kindaid-kirki.php:199
+msgid "Offcanvas Gallery Item"
+msgstr ""
+
+#: include/kindaid-kirki.php:205
+msgid "Offcanvas Image"
+msgstr ""
+
+#: include/kindaid-kirki.php:206
+msgid "Offcanvas Image here"
+msgstr ""
+
+#: include/kindaid-kirki.php:223
+msgid "Offcanvas Info Content"
+msgstr ""
+
+#: include/kindaid-kirki.php:216 include/kindaid-kirki.php:222
+msgid "Offcanvas Info Item"
+msgstr ""
+
+#: include/kindaid-kirki.php:228
+msgid "Offcanvas info URL"
+msgstr ""
+
+#: include/kindaid-kirki.php:169
+msgid "Offcanvas Logo"
+msgstr ""
+
+#: include/kindaid-kirki.php:179
+msgid "Offcanvas Title"
+msgstr ""
+
+#: include/add_plugin.php:93
+msgid "One Click Demo Import"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:145
+msgid ""
+"Only logged in customers who have purchased this product may leave a review."
+msgstr ""
+
+#: 404.php:6 include/kindaid-kirki.php:428
+msgid "Oops! Page not found"
+msgstr ""
+
+#: woocommerce/order/order-details.php:60
+msgid "Order details"
+msgstr ""
+
+#: templates/content-page.php:9
+msgid "Page"
+msgstr ""
+
+#: include/kindaid-metafileds.php:6
+msgid "Page Options"
+msgstr ""
+
+#: templates/content-page.php:5
+msgid "Pages:"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:37
+#: woocommerce/myaccount/form-login.php:85
+msgid "Password"
+msgstr ""
+
+#: woocommerce/myaccount/form-edit-account.php:64
+msgid "Password change"
+msgstr ""
+
+#: include/kindaid-kirki.php:495
+msgid "Payment Image"
+msgstr ""
+
+#: include/kindaid-kirki.php:496
+msgid "Payment image will be place"
+msgstr ""
+
+#: include/kindaid-kirki.php:484
+msgid "Payment Text"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:130
+msgid "Perfect"
+msgstr ""
+
+#: include/kindaid-kirki.php:229
+msgid "Phone or Email"
+msgstr ""
+
+#: comments.php:111
+msgid "Pingback:"
+msgstr ""
+
+#: include/add_plugin.php:179
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: woocommerce/checkout/payment.php:34
+msgid "Please fill in your details above to see available payment methods."
+msgstr ""
+
+#: include/add_plugin.php:172
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: include/add_plugin.php:175
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+
+#: include/theme-helper.php:320
+msgid "Popular Tags : "
+msgstr ""
+
+#: comments.php:67
+msgid "Post Comment"
+msgstr ""
+
+#: include/kindaid-metafileds.php:98
+msgid "Post Gallery Images"
+msgstr ""
+
+#: include/kindaid-metafileds.php:91
+msgid "Post Meta Gallery"
+msgstr ""
+
+#: include/kindaid-metafileds.php:52 include/kindaid-metafileds.php:71
+msgid "Post Video URL"
+msgstr ""
+
+#: comments.php:34
+msgid "Previous"
+msgstr ""
+
+#: single.php:38
+msgid "Previous Post"
+msgstr ""
+
+#: woocommerce/cart/cart.php:33 woocommerce/cart/cart.php:110
+msgid "Price"
+msgstr ""
+
+#: woocommerce/content-widget-price-filter.php:35
+msgid "Price:"
+msgstr ""
+
+#: woocommerce/cart/proceed-to-checkout-button.php:26
+msgid "Proceed to checkout"
+msgstr ""
+
+#: include/kindaid-kirki.php:460 woocommerce/cart/cart.php:32
+#: woocommerce/cart/cart.php:85 woocommerce/order/order-details.php:66
+msgid "Product"
+msgstr ""
+
+#: woocommerce/loop/pagination.php:32
+msgid "Product Pagination"
+msgstr ""
+
+#: woocommerce/global/quantity-input.php:52
+msgid "Product quantity"
+msgstr ""
+
+#: include/common/widgets-init.php:20
+msgid "Product Sidebar"
+msgstr ""
+
+#: include/kindaid-kirki.php:471
+msgid "Product Socia On/Off switch"
+msgstr ""
+
+#: include/kindaid-kirki.php:470
+msgid "Product Social Switch"
+msgstr ""
+
+#: include/add_plugin.php:57
+msgid "Pure Metafields"
+msgstr ""
+
+#: woocommerce/cart/cart.php:34 woocommerce/cart/cart.php:116
+#: woocommerce/global/quantity-input.php:24
+#: woocommerce/single-product/add-to-cart/simple.php:30
+msgid "Quantity"
+msgstr ""
+
+#: include/kindaid-woocommerce.php:195
+msgid "Quick View"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:129
+msgid "Rate&hellip;"
+msgstr ""
+
+#: include/kindaid-kirki.php:343 templates/blog/blog-btn.php:3
+msgid "Read More"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:62
+#: woocommerce/myaccount/form-login.php:99
+#: woocommerce/myaccount/form-login.php:99
+msgid "Register"
+msgstr ""
+
+#: woocommerce/single-product/related.php:40
+msgid "Related products"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:45
+msgid "Remember me"
+msgstr ""
+
+#: woocommerce/cart/cart.php:35
+msgid "Remove"
+msgstr ""
+
+#. %s is the product name
+#: woocommerce/cart/cart.php:153 woocommerce/cart/mini-cart.php:67
+#, php-format
+msgid "Remove %s from cart"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:33
+#: woocommerce/myaccount/form-login.php:37
+#: woocommerce/myaccount/form-login.php:71
+#: woocommerce/myaccount/form-login.php:78
+#: woocommerce/myaccount/form-login.php:85
+msgid "Required"
+msgstr ""
+
+#: include/add_plugin.php:171
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: woocommerce/cart/cart-empty.php:35
+msgid "Return to shop"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:39
+msgid "Reviews"
+msgstr ""
+
+#: woocommerce/myaccount/form-edit-account.php:92
+msgid "Save changes"
+msgstr ""
+
+#: comments.php:80
+msgid ""
+"Save my name, email, and website in this browser for the next time I comment."
+msgstr ""
+
+#: include/theme-helper.php:264
+msgid "Search for:"
+msgstr ""
+
+#: woocommerce/product-searchform.php:28
+msgid "Search products"
+msgstr ""
+
+#: include/breadcrumb.php:29
+msgid "Search Results for : "
+msgstr ""
+
+#: include/kindaid-metafileds.php:28 include/kindaid-metafileds.php:42
+msgid "Select an item"
+msgstr ""
+
+#: include/kindaid-woocommerce.php:145
+msgid "Select Options"
+msgstr ""
+
+#: include/kindaid-kirki.php:366
+msgid "Select Your Default Footer"
+msgstr ""
+
+#: include/kindaid-kirki.php:28
+msgid "Select Your Default Header"
+msgstr ""
+
+#: include/kindaid-metafileds.php:38
+msgid "Select Your Footer"
+msgstr ""
+
+#: include/kindaid-metafileds.php:23
+msgid "Select Your header"
+msgstr ""
+
+#: woocommerce/checkout/form-shipping.php:26
+msgid "Ship to a different address?"
+msgstr ""
+
+#: woocommerce/cart/cart-totals.php:52 woocommerce/cart/cart-totals.php:53
+msgid "Shipping"
+msgstr ""
+
+#: woocommerce/myaccount/my-address.php:27
+#: woocommerce/order/order-details-customer.php:61
+msgid "Shipping address"
+msgstr ""
+
+#: woocommerce/cart/cart-shipping.php:62
+msgid "Shipping costs are calculated during checkout."
+msgstr ""
+
+#: woocommerce/cart/cart-shipping.php:54
+msgid "Shipping options will be updated during checkout."
+msgstr ""
+
+#. $s shipping destination.
+#: woocommerce/cart/cart-shipping.php:51
+#, php-format
+msgid "Shipping to %s."
+msgstr ""
+
+#: include/breadcrumb.php:26
+msgid "Shop"
+msgstr ""
+
+#: woocommerce/loop/orderby.php:35
+msgid "Shop order"
+msgstr ""
+
+#: templates/header/minicart.php:7
+msgid "Shopping cart"
+msgstr ""
+
+#. 1: total results 2: sorted by
+#: woocommerce/loop/result-count.php:32
+#, php-format
+msgid "Showing all %1$d result"
+msgid_plural "Showing all %1$d results"
+msgstr[0] ""
+msgstr[1] ""
+
+#: woocommerce/loop/result-count.php:28
+msgid "Showing the single result"
+msgstr ""
+
+#. $1 and $2 opening and closing emphasis tags respectively
+#: woocommerce/checkout/payment.php:44
+#, php-format
+msgid ""
+"Since your browser does not support JavaScript, or it is disabled, please "
+"ensure you click the %1$sUpdate Totals%2$s button before placing your order. "
+"You may be charged more than the amount stated above if you fail to do so."
+msgstr ""
+
+#: woocommerce/single-product/meta.php:33
+msgid "SKU:"
+msgstr ""
+
+#: include/add_plugin.php:125
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: woocommerce/checkout/payment.php:34
+msgid ""
+"Sorry, it seems that there are no available payment methods. Please contact "
+"us if you require assistance or wish to make alternate arrangements."
+msgstr ""
+
+#: woocommerce/single-product/add-to-cart/variation.php:22
+msgid ""
+"Sorry, this product is unavailable. Please choose a different combination."
+msgstr ""
+
+#: woocommerce/loop/orderby.php:27
+msgid "Sort by"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:83
+msgid "Submit"
+msgstr ""
+
+#: woocommerce/cart/cart-totals.php:30 woocommerce/cart/cart-totals.php:31
+msgid "Subtotal"
+msgstr ""
+
+#: woocommerce/myaccount/my-address.php:46
+msgid "The following addresses will be used on the checkout page by default."
+msgstr ""
+
+#: include/add_plugin.php:136
+#, php-format
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: include/add_plugin.php:173
+msgid "The following plugin was activated successfully:"
+msgstr ""
+
+#: include/add_plugin.php:151
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: include/add_plugin.php:146
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: include/kindaid-kirki.php:138 include/kindaid-kirki.php:147
+#: include/kindaid-kirki.php:170
+msgid "The saved value will be the URL."
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:66
+msgid "There are no reviews yet."
+msgstr ""
+
+#: woocommerce/cart/cart-shipping.php:67
+msgid ""
+"There are no shipping options available. Please ensure that your address has "
+"been entered correctly, or contact us if you need any help."
+msgstr ""
+
+#: include/add_plugin.php:178
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr ""
+
+#: include/add_plugin.php:141
+#, php-format
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: woocommerce/single-product/add-to-cart/variable.php:32
+msgid "This product is currently out of stock and unavailable."
+msgstr ""
+
+#: include/add_plugin.php:131
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: include/add_plugin.php:126
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: woocommerce/myaccount/form-edit-account.php:45
+msgid ""
+"This will be how your name will be displayed in the account section and in "
+"reviews"
+msgstr ""
+
+#: woocommerce/cart/cart-totals.php:98 woocommerce/cart/cart-totals.php:99
+#: woocommerce/order/order-details.php:67
+msgid "Total"
+msgstr ""
+
+#: include/kindaid-kirki.php:146
+msgid "Transparent Logo"
+msgstr ""
+
+#: include/kindaid-kirki.php:102
+msgid "Twitter URL "
+msgstr ""
+
+#: woocommerce/cart/cart.php:186
+msgid "Update cart"
+msgstr ""
+
+#: woocommerce/checkout/payment.php:46
+msgid "Update totals"
+msgstr ""
+
+#: include/add_plugin.php:124
+#, php-format
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: include/kindaid-metafileds.php:119
+msgid "User Social Information"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:71
+msgid "Username"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:33
+msgid "Username or email address"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:134
+msgid "Very poor"
+msgstr ""
+
+#: include/kindaid-metafileds.php:58
+msgid "Video Format"
+msgstr ""
+
+#: include/kindaid-metafileds.php:61
+msgid "Video url here"
+msgstr ""
+
+#: eventin/templates/event/related-events-free.php:83
+msgid "View event"
+msgstr ""
+
+#: include/kindaid-woocommerce.php:149
+msgid "View Products"
+msgstr ""
+
+#: comments.php:54
+msgid "Website"
+msgstr ""
+
+#: templates/header/header-search.php:22
+msgid "What are you looking foor?"
+msgstr ""
+
+#: 404.php:7 include/kindaid-kirki.php:437
+msgid ""
+"Whoops, this is embarassing. Looks like the page you were looking for was "
+"not found."
+msgstr ""
+
+#: include/common/widgets-init.php:11
+msgid "Widgets in this area will be shown on blog sidebar"
+msgstr ""
+
+#: include/common/widgets-init.php:33
+msgid "Widgets in this area will be shown on donation sidebar"
+msgstr ""
+
+#: include/common/widgets-init.php:44
+msgid "Widgets in this area will be shown on event sidebar"
+msgstr ""
+
+#: include/common/widgets-init.php:55
+msgid "Widgets in this area will be shown on Footer 1 : Widget 1"
+msgstr ""
+
+#: include/common/widgets-init.php:65
+msgid "Widgets in this area will be shown on Footer 1 : Widget 2"
+msgstr ""
+
+#: include/common/widgets-init.php:75
+msgid "Widgets in this area will be shown on Footer 1 : Widget 3"
+msgstr ""
+
+#: include/common/widgets-init.php:85
+msgid "Widgets in this area will be shown on Footer 1 : Widget 4"
+msgstr ""
+
+#: include/common/widgets-init.php:97
+msgid "Widgets in this area will be shown on Footer 2 : Widget 1"
+msgstr ""
+
+#: include/common/widgets-init.php:107
+msgid "Widgets in this area will be shown on Footer 2 : Widget 2"
+msgstr ""
+
+#: include/common/widgets-init.php:117
+msgid "Widgets in this area will be shown on Footer 2 : Widget 3"
+msgstr ""
+
+#: include/common/widgets-init.php:127
+msgid "Widgets in this area will be shown on Footer 2 : Widget 4"
+msgstr ""
+
+#: include/common/widgets-init.php:22
+msgid "Widgets in this area will be shown on product sidebar"
+msgstr ""
+
+#. 1: first result 2: last result 3: total results 4: sorted by
+#: woocommerce/loop/result-count.php:38
+#, php-format
+msgctxt "with first and last result"
+msgid "Showing %1$d&ndash;%2$d of %3$d result"
+msgid_plural "Showing %1$d&ndash;%2$d of %3$d results"
+msgstr[0] ""
+msgstr[1] ""
+
+#: include/add_plugin.php:72
+msgid "WooCommerce"
+msgstr ""
+
+#: include/add_plugin.php:52
+msgid "WP Classic Editor"
+msgstr ""
+
+#: include/add_plugin.php:82
+msgid "WPC Smart Compare"
+msgstr ""
+
+#: include/add_plugin.php:87
+msgid "WPC Smart Quick View"
+msgstr ""
+
+#: include/add_plugin.php:77
+msgid "WPC Smart Wishlist"
+msgstr ""
+
+#: woocommerce/myaccount/my-address.php:75
+msgid "You have not set up this type of address yet."
+msgstr ""
+
+#: woocommerce/cart/cross-sells.php:24
+msgid "You may be interested in&hellip;"
+msgstr ""
+
+#. %s opening and closing link tags respectively
+#: woocommerce/single-product-reviews.php:124
+#, php-format
+msgid "You must be %1$slogged in%2$s to post a review."
+msgstr ""
+
+#: woocommerce/checkout/form-checkout.php:26
+msgid "You must be logged in to checkout."
+msgstr ""
+
+#: comments.php:62
+msgid "Your Comment Here..."
+msgstr ""
+
+#: comments.php:61
+msgid "Your Comments *"
+msgstr ""
+
+#: comments.php:51
+msgid "Your Email"
+msgstr ""
+
+#: comments.php:49
+msgid "Your name"
+msgstr ""
+
+#: woocommerce/checkout/form-checkout.php:45
+msgid "Your order"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:128
+msgid "Your rating"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:138
+msgid "Your review"
+msgstr ""
+
+#: include/kindaid-metafileds.php:147
+msgid "Youtube URL"
+msgstr ""
+
+#: include/kindaid-metafileds.php:150
+msgid "Youtube URL..."
+msgstr ""
+
+#: include/kindaid-kirki.php:391 include/theme-helper.php:96
+msgid "© 2026 Charity. is Proudly Powered by Aqlova"
+msgstr ""

@@ -1,0 +1,185 @@
+/* Pure Animations with 'tp-' prefix */
+
+/* Initial state */
+[class*="tp-fade-"],
+[class*="tp-zoom-"],
+[class*="tp-bounce-"],
+.tp-bounce {
+    opacity: 0;
+    visibility: hidden;
+    animation-fill-mode: both;
+    animation-duration: 1s;
+    animation-timing-function: ease;
+    will-change: transform, opacity;
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+}
+
+/* Animated state */
+[class*="tp-fade-"].tp-animated,
+[class*="tp-zoom-"].tp-animated,
+[class*="tp-bounce-"].tp-animated,
+.tp-bounce.tp-animated {
+    opacity: 1;
+    visibility: visible;
+}
+
+/* Fade In */
+@keyframes tpFadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+.tp-fade-in.tp-animated {
+    animation-name: tpFadeIn;
+}
+
+/* Fade In Up */
+@keyframes tpFadeInUp {
+    from {
+        opacity: 0;
+        transform: translate3d(0, 40px, 0);
+    }
+    to {
+        opacity: 1;
+        transform: translate3d(0, 0, 0);
+    }
+}
+.tp-fade-in-up.tp-animated {
+    animation-name: tpFadeInUp;
+}
+
+/* Fade In Down */
+@keyframes tpFadeInDown {
+    from {
+        opacity: 0;
+        transform: translate3d(0, -40px, 0);
+    }
+    to {
+        opacity: 1;
+        transform: translate3d(0, 0, 0);
+    }
+}
+.tp-fade-in-down.tp-animated {
+    animation-name: tpFadeInDown;
+}
+
+/* Fade In Left */
+@keyframes tpFadeInLeft {
+    from {
+        opacity: 0;
+        transform: translate3d(-40px, 0, 0);
+    }
+    to {
+        opacity: 1;
+        transform: translate3d(0, 0, 0);
+    }
+}
+.tp-fade-in-left.tp-animated {
+    animation-name: tpFadeInLeft;
+}
+
+/* Fade In Right */
+@keyframes tpFadeInRight {
+    from {
+        opacity: 0;
+        transform: translate3d(40px, 0, 0);
+    }
+    to {
+        opacity: 1;
+        transform: translate3d(0, 0, 0);
+    }
+}
+.tp-fade-in-right.tp-animated {
+    animation-name: tpFadeInRight;
+}
+
+/* Zoom In */
+@keyframes tpZoomIn {
+    from {
+        opacity: 0;
+        transform: scale3d(0.3, 0.3, 0.3);
+    }
+    to {
+        opacity: 1;
+        transform: scale3d(1, 1, 1);
+    }
+}
+.tp-zoom-in.tp-animated {
+    animation-name: tpZoomIn;
+}
+
+/* Bounce */
+@keyframes tpBounce {
+    from,
+    20%,
+    53%,
+    80%,
+    to {
+        animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+        transform: translate3d(0, 0, 0);
+    }
+
+    40%,
+    43% {
+        animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+        transform: translate3d(0, -30px, 0);
+    }
+
+    70% {
+        animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+        transform: translate3d(0, -15px, 0);
+    }
+
+    90% {
+        transform: translate3d(0, -4px, 0);
+    }
+}
+.tp-bounce.tp-animated {
+    animation-name: tpBounce;
+    transform-origin: center bottom;
+}
+
+
+/* Skew In */
+
+@keyframes tpSkewIn {
+    0% {
+        opacity: 0;
+        transform: skewX(25deg) translateX(-40px);
+    }
+
+    60% {
+        opacity: 1;
+        transform: skewX(-8deg);
+    }
+
+    80% {
+        transform: skewX(4deg);
+    }
+
+    100% {
+        opacity: 1;
+        transform: skewX(0deg);
+    }
+}
+
+.tp-skew-in.tp-animated {
+    animation-name: tpSkewIn;
+}
+
+/* Rotate In */
+
+@keyframes tpRotateIn {
+    from {
+        opacity: 0;
+        transform: rotate(-180deg) scale(0.8);
+    }
+    to {
+        opacity: 1;
+        transform: rotate(0deg) scale(1);
+    }
+}
+
+.tp-rotate-in.tp-animated {
+    animation-name: tpRotateIn;
+}

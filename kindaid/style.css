@@ -1,0 +1,43 @@
+/*
+    Theme Name: KindAid
+    Author: aqlova
+    Theme URI: https://wp.aqlova.com/kindaid/
+    Author URI: https://themeforest.net/user/aqlova
+    Description: KindAid - Charity & Nonprofit WordPress Theme
+    Version: 1.0.0
+    License: GNU General Public License v3 or later
+    License URI: http://www.gnu.org/licenses/gpl-3.0.html
+    Text Domain: kindaid
+    Requires at least: 6.0
+    Tested up to: 7.0
+    Requires PHP: 7.4
+    Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
+*/
+.tp-shop-widget-product-thumb img {
+	width: 70px !important;
+	height: 70px !important;
+}
+.tp-product-woo-rating {
+	margin-bottom: 8px;
+}
+.tp-product-rating-icon {
+	line-height: 1;
+    margin-bottom: 7px;
+}
+.tp-product-rating-icon span:not(:last-child) {
+	margin-right: 0px;
+}
+.woocommerce .star-rating span::before {
+	color: #ffb21d;
+}
+.product_list_widget li {
+	margin-bottom: 9px !important;
+}
+@media only screen and (max-width: 600px) {
+    .admin-bar .header-sticky {
+        top: 0;
+    }
+    .admin-bar .tp-transparent {
+        margin-top: 0;
+    }
+}
