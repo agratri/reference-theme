@@ -388,7 +388,7 @@ function kindaid_footer_section_kirki(){
             'settings' => 'footer_copyright',
             'label'    => esc_html__( 'Copyright Text', 'kindaid' ),
             'section'  => 'footer_section',
-            'default'  => esc_html__( '© 2026 Charity. is Proudly Powered by Aqlova', 'kindaid' ),
+            'default'  => esc_html__( '© 2026 Charity. is Proudly Powered by Agratri', 'kindaid' ),
             'priority' => 10,
         ]
     );

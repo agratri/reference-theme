@@ -3,8 +3,8 @@
  * Plugin Name: KindAid Core
  * Description: Kindaid core plugin for widgets.
  * Version:     1.0.0
- * Author:      aqlova
- * Author URI:  https://themeforest.net/user/aqlova
+ * Author:      agratri
+ * Author URI:  https://themeforest.net/user/agratri
  * Text Domain: kindaid-core
  *
  * Requires Plugins: elementor

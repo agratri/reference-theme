@@ -48,6 +48,26 @@ This split is a ThemeForest requirement. Never move Elementor widgets into the t
 
 ---
 
+## 1b. Brand identity — Agratri, always
+
+Everything built from this repo ships under **Agratri**. When porting an HTML template, the
+template's own author/vendor strings are **not** carried over — replace them with these:
+
+| Slot | Value |
+|---|---|
+| Brand name | `Agratri` |
+| Brand site | `https://agratri.com` |
+| `Author:` — `style.css`, plugin header, `main.css` / `_theme.scss` banner | `agratri` |
+| `Author URI:` | `https://themeforest.net/user/agratri` |
+| `Support:` — CSS/SCSS banner | `agratriinfo@gmail.com` |
+| Footer copyright default | `© <year> <Theme Name>. is Proudly Powered by Agratri` |
+
+`Theme URI:`, OCDI `preview_url` and the TGMPA `$url` are per-project demo URLs — **ask the user**,
+never copy them from the reference or from the source template.
+
+Never leave a third party's name, domain, or support email in generated code. Full detail and the
+verification grep: `docs/rename-checklist.md` §0.
+
 ## 2. Naming conventions
 
 | Thing | Pattern | Example |

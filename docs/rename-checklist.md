@@ -2,6 +2,32 @@
 
 Run this **first**, before porting any HTML. Renaming after the port means touching hundreds of files.
 
+## 0. Brand identity — never inherit from the reference
+
+Every theme built from this base ships under **Agratri**. These values are fixed. Do **not**
+copy the author, support email, or vendor URL out of whatever HTML template or reference code
+you are porting — those belong to someone else.
+
+| Slot | Value |
+|---|---|
+| Brand name | `Agratri` |
+| Brand site | `https://agratri.com` |
+| `Author:` (style.css, plugin header, CSS/SCSS banner) | `agratri` |
+| `Author URI:` | `https://themeforest.net/user/agratri` |
+| `Support:` (CSS/SCSS banner) | `agratriinfo@gmail.com` |
+| Footer copyright default | `© <year> <Theme Name>. is Proudly Powered by Agratri` |
+
+`Theme URI:` / OCDI `preview_url` / TGMPA `$url` are **per-project demo URLs** — ask the user
+for them. Only the six slots above are constant.
+
+Before finishing any conversion, run:
+
+```
+grep -rin "aqlova\|basictheme400\|storebuild\|agntix" --include="*.php" --include="*.css" --include="*.scss" --include="*.pot" .
+```
+
+Any hit outside a per-project demo URL is a leftover from another vendor. Fix it.
+
 ## Decide the four names
 
 | Slot | Example | Rule |
@@ -34,9 +60,9 @@ Update the matching `include_once` / `require_once` lines in `functions.php` and
 ```css
 /*
     Theme Name: CareWell
-    Author: <author>
-    Theme URI: <url>
-    Author URI: <url>
+    Author: agratri
+    Theme URI: <per-project demo url — ask the user>
+    Author URI: https://themeforest.net/user/agratri
     Description: CareWell - <description>
     Version: 1.0.0
     License: GNU General Public License v3 or later
@@ -60,8 +86,8 @@ Update the matching `include_once` / `require_once` lines in `functions.php` and
  * Plugin Name: CareWell Core
  * Description: CareWell core plugin for widgets.
  * Version:     1.0.0
- * Author:      <author>
- * Author URI:  <url>
+ * Author:      agratri
+ * Author URI:  https://themeforest.net/user/agratri
  * Text Domain: carewell-core
  *
  * Requires Plugins: elementor

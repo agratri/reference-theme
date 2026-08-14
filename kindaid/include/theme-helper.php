@@ -95,7 +95,7 @@ function kindaid_offcanvas_logo(){
 
 // kindaid_copyright
 function kindaid_footer_copyright(){ 
-        $footer_copyright = get_theme_mod('footer_copyright', esc_html__('© 2026 Charity. is Proudly Powered by Aqlova','kindaid'));
+        $footer_copyright = get_theme_mod('footer_copyright', esc_html__('© 2026 Charity. is Proudly Powered by Agratri','kindaid'));
     ?>
 
    <p class="mb-0"><?php echo kindaid_kses($footer_copyright); ?></p>
